@@ -41,6 +41,9 @@ body {
 }
 
 /* columns */
+.column {
+    flex-direction: column;
+}
 .flex-15 {
     flex: 0 1 15%;
 }
@@ -62,8 +65,8 @@ body {
 .flex-50 {
     flex: 0 1 50%;
 }
-.flex-80 {
-    flex: 0 1 80%;
+.flex-60 {
+    flex: 0 1 60%;
 }
 .grow {
     flex: 1 1 auto;
