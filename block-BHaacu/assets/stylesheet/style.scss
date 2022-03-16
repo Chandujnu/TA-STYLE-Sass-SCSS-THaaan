@@ -287,7 +287,7 @@ footer {
 }
 
 // About page
-.about {
+.pages {
     &-section {
         background-color: $primary;
         & h1, p {
@@ -337,9 +337,9 @@ footer {
 }
 .team {
     background-color: $tertiary;
+    padding: 1rem 0 5rem 0;
     & h2 {
         margin: 3rem 0 0 0;
-        padding-top: 3rem;
     }
     & h6 {
         padding-bottom: 2rem;
@@ -348,6 +348,24 @@ footer {
         width: 100%;
     }
     &-img-box {
-        background-color: $secondary;
+        & div {
+        background-color: $secondary;            
+        }
+        & strong {
+            padding-top: 1rem;
+            font-size: 1.3rem;
+            font-weight: 500;
+        }
+        & small {
+            font-size: 0.9rem;
+            font-weight: 400;
+            color: $primary;
+            padding: 0.5rem 0 2rem 0;
+        }
+    }
+}
+.about-solution {
+    & button {
+        margin: 2rem 0;
     }
 }
