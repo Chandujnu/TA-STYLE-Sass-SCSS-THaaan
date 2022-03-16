@@ -550,34 +550,34 @@ footer .footer-nav i {
   color: white;
 }
 
-.about-section {
+.pages-section {
   background-color: #dc3c45;
 }
 
-.about-section h1, .about-section p {
+.pages-section h1, .pages-section p {
   color: white;
 }
 
-.about-section h1 {
+.pages-section h1 {
   font-size: 2.5rem;
   padding: 1rem 0;
 }
 
-.about-section p {
+.pages-section p {
   font-size: 1rem;
   font-weight: 400;
 }
 
-.about-industry-leader img {
+.pages-industry-leader img {
   width: 100%;
 }
 
-.about-industry-leader strong {
+.pages-industry-leader strong {
   color: #dc3c45;
   font-weight: 600;
 }
 
-.about-industry-leader h3 {
+.pages-industry-leader h3 {
   padding: 1rem 0;
   line-height: 1.2;
 }
@@ -608,11 +608,11 @@ footer .footer-nav i {
 
 .team {
   background-color: #f2f2f2;
+  padding: 1rem 0 5rem 0;
 }
 
 .team h2 {
   margin: 3rem 0 0 0;
-  padding-top: 3rem;
 }
 
 .team h6 {
@@ -623,7 +623,24 @@ footer .footer-nav i {
   width: 100%;
 }
 
-.team-img-box {
+.team-img-box div {
   background-color: white;
+}
+
+.team-img-box strong {
+  padding-top: 1rem;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.team-img-box small {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: #dc3c45;
+  padding: 0.5rem 0 2rem 0;
+}
+
+.about-solution button {
+  margin: 2rem 0;
 }
 /*# sourceMappingURL=style.css.map */
